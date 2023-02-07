@@ -1,4 +1,4 @@
-# Knight Exclusive Board Game
+# A Unique Board Game: The Knight, The Puck, and Arguing King and Queen 
 
 ### Description:
 
