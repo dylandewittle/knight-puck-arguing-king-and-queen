@@ -4,21 +4,18 @@ class Board:
     # represents a board in the game.
 
     def __init__(self):
-        self.rows = 8
-        self.columns = 8
-
-        # Some important notes:
-        # 1. the board is zero indexed.
-        # the first 3 positions are for white pieces.
-        # the last 3 positions are for black pieces.
-        # the 3rd position in every sub array is the puck position to be passed.
-        # it is also important to note that the puck can be in its own spot, alone.
-        # but to be passed, it needs to land in the hands of a knight.
         
-        self.board = np.array(
-            [(0, 0), (7, 0), (4, 0)
-            (0, 7), (7, 7), (4, 7)]
-            )
+        # board dimensions 
+        self.rows = 9
+        self.columns = 9 
+
+        # reference board visualization on readme to understand new game board and how this array works.
+        
+        self.board = np.array([
+             (3, 0), (6, 0), (5, 0),
+             (0, 4), (8, 4), 
+             (2, 8), (6, 8), (5, 8)
+            ])
 
     
     # takes a coordinate value and turns it into an integer that can represent the board.
