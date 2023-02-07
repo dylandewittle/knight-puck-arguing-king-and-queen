@@ -19,11 +19,13 @@ Use a virtual environment to install the dependencies. It is common in Python. U
 
 https://docs.conda.io/en/latest/miniconda.html
 
+Sequence of conda actions: 
 
 'conda create -n dylan_board_game python=3.8'
+
+'conda info --envs'
+
 'conda activate dylan_board_game'
+
 'conda install numpy pytest'
-
-If neccesary, 'conda deactivate' to exit the virtual environment.
-
 
