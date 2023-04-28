@@ -1,7 +1,7 @@
-import numpy as np
-import pytest
-from game import BoardState
-
+# import numpy as np
+# import pytest
+# from game import BoardState
+print("HELLO")
 class TestGame:
 
     # feel free to make a test suite, or i can make one
