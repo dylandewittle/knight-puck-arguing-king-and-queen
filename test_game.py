@@ -1,5 +1,3 @@
-import numpy as np
-import pytest
 # from game import BoardState
 print("HELLO")
 class TestGame:
