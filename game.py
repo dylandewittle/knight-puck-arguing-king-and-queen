@@ -163,6 +163,7 @@ board = Board()
 board.print_full_board() 
 print(board.get_queen_moves())
 print(board.get_knight_moves("White"))
+print(board.obtain_all_valid_moves("White"))
 
 """
 Players for the game
